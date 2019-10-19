@@ -1,2 +1,2 @@
-# fastap
-Aplicativo android desenvolvido utilizado WebView e Bootstrap
+# Fastap
+Aplicativo android desenvolvido utilizando WebView e Bootstrap
