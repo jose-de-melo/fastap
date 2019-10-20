@@ -18,7 +18,7 @@ function generatePercentual(hits){
         return (102/6)*hits
 }
 
-let firstMove = true
+var firstMove = true
 
 
 /**
