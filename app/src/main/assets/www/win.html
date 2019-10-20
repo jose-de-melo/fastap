@@ -4,14 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/win.css">
+    <title>Fastap</title>
 </head>
 <body>
-    <div id="ponctuation"></div>
+    <main>
+        <div class="text-center">
+            Congrats!
+            <br>
+            Your time:
+            <div style="font-size: 50px;"><span id="ponctuation"></span> s</div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <button onclick="window.location.href='index.html';" type="submit" class="btn btn-light btn-save">New Game</button>
+            </div>
+            <div class="col-6">
+                <button onclick="window.location.href='ranking.html';" type="submit" class="btn btn-light btn-save">Ranking</button>
+            </div>
+        </div>
+
+
+        <div class="save">
+            <div id="ask-score">
+                Rank your score ?
+            </div>
+
+            <input class="form-control w-75" type="text" name="nickaname" id="nick" placeholder="Nickname" required>
+            <button onclick="saveScore()" type="submit" class="btn btn-light btn-save" id="btn-save">Save</button>
+        </div>
+    </main>
+    
 
     <script src="assets/js/jquery.js"></script>
-    <script>
-        $("#ponctuation").html(sessionStorage.getItem('time'))
-    </script>
+    <script src="assets/js/win.js"></script>
 </body>
 </html>

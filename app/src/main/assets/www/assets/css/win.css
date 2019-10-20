@@ -1,0 +1,64 @@
+@font-face {
+    font-family: gotham;
+    src: url('../fonts/GothamMedium.ttf');
+}
+
+@font-face {
+    font-family: avenir;
+    src: url('../fonts/Avenir.otf');
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: avenir;
+    background-color: #7B1FA2;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 15vh;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#ponctuation {
+    margin-top: 2%;
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+.save{
+    text-align: center;
+    margin-top: 5vh;
+    color: #FFFFFF;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form-control{
+    margin: 0 auto !important;
+    margin-top: 1vh !important;
+}
+
+.btn-save{
+    margin-top: 1vh;
+}
+
+.save div{
+    font-size: 20px;
+}
+
+.row{
+    margin: 0 auto !important;
+    padding-left: 40px !important;
+    padding-right: 20px !important;
+}
