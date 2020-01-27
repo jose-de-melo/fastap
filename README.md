@@ -19,6 +19,6 @@ O ranking traz os 5 melhores tempos obtidos no jogo, podendo ser checado ao fim 
 </p>
 
 
-## Como jogar
+## Instalando o aplicativo
 
-Para testar a aplicação, baixe o apk do aplicativo clicando [aqui](https://github.com/jose-de-melo/fastap/raw/master/apk/fastap.apk)
+Para testar a aplicação, faça o download do apk clicando [aqui](https://github.com/jose-de-melo/fastap/raw/master/apk/fastap.apk)
